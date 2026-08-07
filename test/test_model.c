@@ -127,8 +127,8 @@ int main(int argc, char* argv[]) {
     printf("  └─ SURF-Zn++ (Zn_sorbed): %.9e mol/L\n", output_data[1]);
 
     free(input_shape);
-    g_ort->AllocatorFree(allocator, input_name);
-    g_ort->AllocatorFree(allocator, output_name);
+    CHECK_STATUS(g_ort->AllocatorFree(allocator, input_name));
+    CHECK_STATUS(g_ort->AllocatorFree(allocator, output_name));
     g_ort->ReleaseValue(input_tensor);
     g_ort->ReleaseValue(output_tensor);
     g_ort->ReleaseMemoryInfo(memory_info);
