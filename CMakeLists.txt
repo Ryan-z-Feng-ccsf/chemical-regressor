@@ -1,0 +1,15 @@
+cmake_minimum_required(VERSION 3.22.1)
+
+project(onnx_test)
+set(ORT_DIR "${CMAKE_CURRENT_SOURCE_DIR}/onnxruntime")
+set(TPL_ORT_INCLUDE "${ORT_DIR}/include")
+set(TPL_ORT_LIB "${ORT_DIR}/lib")
+add_executable(test_tensor test/test_tensor.c)
+target_include_directories(test_tensor PRIVATE ${TPL_ORT_INCLUDE})
+target_link_directories(test_tensor PRIVATE ${TPL_ORT_LIB})
+target_link_libraries(test_tensor PRIVATE onnxruntime)
+
+add_executable(test_model test/test_model.c)
+target_include_directories(test_model PRIVATE ${TPL_ORT_INCLUDE})
+target_link_directories(test_model PRIVATE ${TPL_ORT_LIB})
+target_link_libraries(test_model PRIVATE onnxruntime)
