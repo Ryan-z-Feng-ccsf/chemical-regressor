@@ -1,0 +1,141 @@
+{
+    "selected_features": [
+        [
+            "Zn(OH)2(aq)"
+        ],
+        [
+            "Zn(OH)2(aq)",
+            "Fe++"
+        ],
+        [
+            "Zn(OH)2(aq)",
+            "Zn(OH)4--",
+            "Fe++"
+        ],
+        [
+            "Zn(OH)2(aq)",
+            "Zn(OH)3-",
+            "Zn(OH)4--",
+            "Fe++"
+        ],
+        [
+            "Zn(OH)2(aq)",
+            "Zn(OH)3-",
+            "Zn(OH)4--",
+            "NO3-",
+            "Fe++"
+        ],
+        [
+            "Zn(OH)2(aq)",
+            "Zn(OH)3-",
+            "Zn(OH)4--",
+            "Zn++",
+            "NO3-",
+            "Fe++"
+        ],
+        [
+            "Zn(OH)2(aq)",
+            "Zn(OH)3-",
+            "Zn(OH)4--",
+            "Zn++",
+            "Na+",
+            "NO3-",
+            "Fe++"
+        ],
+        [
+            "Zn(OH)2(aq)",
+            "Zn(OH)3-",
+            "Zn(OH)4--",
+            "ZnOH+",
+            "Zn++",
+            "Na+",
+            "NO3-",
+            "Fe++"
+        ],
+        [
+            "Zn(OH)2(aq)",
+            "Zn(OH)3-",
+            "Zn(OH)4--",
+            "ZnOH+",
+            "Zn++",
+            "Na+",
+            "NO3-",
+            "Fe++",
+            "O2(aq)"
+        ],
+        [
+            "zn",
+            "Zn(OH)2(aq)",
+            "Zn(OH)3-",
+            "Zn(OH)4--",
+            "ZnOH+",
+            "Zn++",
+            "Na+",
+            "NO3-",
+            "Fe++",
+            "O2(aq)"
+        ]
+    ],
+    "best_params": [
+        {
+            "n_estimators": 100,
+            "min_samples_split": 100,
+            "min_samples_leaf": 2,
+            "max_depth": 110
+        },
+        {
+            "n_estimators": 100,
+            "min_samples_split": 10,
+            "min_samples_leaf": 1,
+            "max_depth": null
+        },
+        {
+            "n_estimators": 100,
+            "min_samples_split": 10,
+            "min_samples_leaf": 1,
+            "max_depth": null
+        },
+        {
+            "n_estimators": 100,
+            "min_samples_split": 10,
+            "min_samples_leaf": 1,
+            "max_depth": null
+        },
+        {
+            "n_estimators": 100,
+            "min_samples_split": 10,
+            "min_samples_leaf": 1,
+            "max_depth": null
+        },
+        {
+            "n_estimators": 100,
+            "min_samples_split": 10,
+            "min_samples_leaf": 1,
+            "max_depth": null
+        },
+        {
+            "n_estimators": 100,
+            "min_samples_split": 10,
+            "min_samples_leaf": 1,
+            "max_depth": null
+        },
+        {
+            "n_estimators": 100,
+            "min_samples_split": 10,
+            "min_samples_leaf": 1,
+            "max_depth": null
+        },
+        {
+            "n_estimators": 100,
+            "min_samples_split": 10,
+            "min_samples_leaf": 1,
+            "max_depth": null
+        },
+        {
+            "n_estimators": 100,
+            "min_samples_split": 10,
+            "min_samples_leaf": 1,
+            "max_depth": null
+        }
+    ]
+}

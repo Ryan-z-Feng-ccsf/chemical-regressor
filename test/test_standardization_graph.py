@@ -4,9 +4,9 @@ import joblib
 from nn_regressor.multi_layer_nn import ChemicalRegressor
 from nn_regressor.integrated_scale_nn import IntegratedChemicalRegressor
 
-model_path = 'models/zn_h_regressor_base.pt'
-x_scalar_path = 'models/zn_h_regressor_scale/x_scalar.joblib'
-y_scalar_path = 'models/zn_h_regressor_scale/y_scalar.joblib'
+model_path = 'models/zn_h_regressor/zn_h_regressor_base.pt'
+x_scalar_path = 'models/zn_h_regressor/x_scalar.joblib'
+y_scalar_path = 'models/zn_h_regressor/y_scalar.joblib'
 
 model = ChemicalRegressor([2, 512, 128, 64, 2])
 model.load_state_dict(torch.load(model_path))
