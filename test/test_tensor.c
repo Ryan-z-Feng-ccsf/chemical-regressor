@@ -100,7 +100,6 @@ int main(int argc, char* argv[]) {
     }
 
     // Release
-    g_ort->ReleaseAllocator(allocator);
     g_ort->ReleaseSession(session);
     g_ort->ReleaseSessionOptions(session_options);
     g_ort->ReleaseEnv(env);
